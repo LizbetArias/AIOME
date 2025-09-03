@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: AIOME
+  r2dbc:
+    url: r2dbc:postgresql://aws-1-us-east-1.pooler.supabase.com:5432/postgres
+    username: postgres.elsbainrkdtekfdzeyos
+    password: lizbetarias25!?
+  ai:
+    copilot:
+      api-key: 70d2b19518msh27c0dc634d2bfd1p1dea1djsncacae4126f0f
+      api-host: copilot11.p.rapidapi.com
+      api-url: https://copilot11.p.rapidapi.com/
+    gemini:
+      api-key: AIzaSyAWvrzXRCrTrP5LVQB4cDd5_ACvkqRh_vw
+      api-url: https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent
+
+server:
+  port: 8086
+
+springdoc:
+  api-docs:
+    path: /api-docs
+  swagger-ui:
+    path: /swagger-ui.html
+
+#http://localhost:8086/swagger-ui/index.html
+# tipos GEMINI | COPILOT
